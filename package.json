@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "setup-db": "tsx --tsconfig tsconfig.json scripts/setup-db.ts",
+    "probar-cron": "tsx --tsconfig tsconfig.json scripts/probar-cron.ts",
     "ver-metricas": "tsx --tsconfig tsconfig.json scripts/ver-metricas.ts",
     "ver-posts": "tsx --tsconfig tsconfig.json scripts/ver-posts.ts",
     "guardar-token": "tsx --tsconfig tsconfig.json scripts/guardar-token.ts",
