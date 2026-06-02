@@ -1,0 +1,6 @@
+node_modules/
+.next/
+.env.local
+token.json
+posts.html
+*.tsbuildinfo

@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/capturar-metricas",
+      "schedule": "0 6 * * *"
+    },
+    {
+      "path": "/api/cron/refrescar-tokens",
+      "schedule": "0 5 * * 1"
+    }
+  ]
+}

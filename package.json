@@ -1,0 +1,30 @@
+{
+  "name": "instagram-flow",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ver-metricas": "tsx --tsconfig tsconfig.json scripts/ver-metricas.ts",
+    "ver-posts": "tsx --tsconfig tsconfig.json scripts/ver-posts.ts",
+    "guardar-token": "tsx --tsconfig tsconfig.json scripts/guardar-token.ts",
+    "generar-url-auth": "tsx --tsconfig tsconfig.json scripts/generar-url-auth.ts",
+    "canjear-code": "tsx --tsconfig tsconfig.json scripts/canjear-code.ts"
+  },
+  "dependencies": {
+    "next": "^15.3.2",
+    "pg": "^8.13.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/pg": "^8.11.11",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "dotenv": "^16.5.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
